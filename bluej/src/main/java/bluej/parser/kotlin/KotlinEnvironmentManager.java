@@ -1,6 +1,6 @@
 /*
  This file is part of the BlueJ program.
- Copyright (C) 2025,2026  Michael Kolling and John Rosenberg
+ Copyright (C) 2026  Michael Kolling and John Rosenberg
 
  This program is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public License
@@ -36,8 +36,6 @@ import threadchecker.Tag;
  * Manages a shared {@link KotlinCoreEnvironment} for editor PSI parsing
  * and Kotlin compilation. The environment is created lazily on first use
  * and cached for the lifetime of the BlueJ process.
- *
- * @author BlueJ Team
  */
 @OnThread(Tag.Any)
 public final class KotlinEnvironmentManager

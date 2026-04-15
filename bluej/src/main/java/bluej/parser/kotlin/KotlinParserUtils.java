@@ -1,6 +1,6 @@
 /*
  This file is part of the BlueJ program.
- Copyright (C) 2025,2026  Michael Kolling and John Rosenberg
+ Copyright (C) 2026  Michael Kolling and John Rosenberg
 
  This program is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public License
@@ -31,8 +31,6 @@ import threadchecker.Tag;
 
 /**
  * Shared utility methods for Kotlin parser nodes.
- *
- * @author BlueJ Team
  */
 public final class KotlinParserUtils
 {

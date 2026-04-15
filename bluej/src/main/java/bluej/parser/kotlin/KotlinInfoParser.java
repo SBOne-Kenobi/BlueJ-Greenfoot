@@ -1,6 +1,6 @@
 /*
  This file is part of the BlueJ program.
- Copyright (C) 2025,2026  Michael Kolling and John Rosenberg
+ Copyright (C) 2026  Michael Kolling and John Rosenberg
 
  This program is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public License
@@ -63,8 +63,6 @@ import threadchecker.Tag;
  * for the class diagram. This is the Kotlin counterpart to
  * {@code bluej.parser.InfoParser} for Java, using PSI APIs from
  * kotlin-compiler-embeddable.
- *
- * @author BlueJ Team
  */
 @OnThread(Tag.FXPlatform)
 public class KotlinInfoParser

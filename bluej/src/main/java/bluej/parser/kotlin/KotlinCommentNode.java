@@ -1,6 +1,6 @@
 /*
  This file is part of the BlueJ program.
- Copyright (C) 2025,2026  Michael Kolling and John Rosenberg
+ Copyright (C) 2026  Michael Kolling and John Rosenberg
 
  This program is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public License
@@ -34,8 +34,6 @@ import threadchecker.Tag;
  * A parse node representing a Kotlin comment (KDoc, block, or end-of-line)
  * in the scope tree. Returns a single comment-typed token to prevent keyword
  * highlighting inside comments.
- *
- * @author BlueJ Team
  */
 @OnThread(Tag.FXPlatform)
 public class KotlinCommentNode extends JavaParentNode

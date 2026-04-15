@@ -1,6 +1,6 @@
 /*
  This file is part of the BlueJ program.
- Copyright (C) 2025,2026  Michael Kolling and John Rosenberg
+ Copyright (C) 2026  Michael Kolling and John Rosenberg
 
  This program is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public License
@@ -39,8 +39,6 @@ import threadchecker.Tag;
  * Root parse node for a Kotlin source file. Uses the Kotlin PSI parser
  * for full-file reparsing and scope building via
  * {@link KotlinPsiScopeBuilder}.
- *
- * @author BlueJ Team
  */
 @OnThread(Tag.FXPlatform)
 public class KotlinParsedCUNode extends ParsedCUNode

@@ -1,6 +1,6 @@
 /*
  This file is part of the BlueJ program.
- Copyright (C) 2025,2026  Michael Kolling and John Rosenberg
+ Copyright (C) 2026  Michael Kolling and John Rosenberg
 
  This program is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public License
@@ -28,8 +28,6 @@ import bluej.extensions2.SourceType;
 
 /**
  * A FileFilter that only accepts Kotlin source files (.kt).
- *
- * @author BlueJ Team
  */
 public class KotlinSourceFilter implements FileFilter
 {

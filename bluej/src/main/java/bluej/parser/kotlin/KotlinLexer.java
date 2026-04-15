@@ -1,6 +1,6 @@
 /*
  This file is part of the BlueJ program.
- Copyright (C) 2025,2026  Michael Kolling and John Rosenberg
+ Copyright (C) 2026  Michael Kolling and John Rosenberg
 
  This program is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public License
@@ -37,8 +37,6 @@ import threadchecker.Tag;
  * Kotlin tokenizer for the BlueJ editor. Wraps the PSI KotlinLexer from
  * kotlin-compiler-embeddable and produces LocatableTokens compatible with
  * BlueJ's parser infrastructure.
- *
- * @author BlueJ Team
  */
 @OnThread(Tag.Any)
 public final class KotlinLexer implements TokenStream

@@ -1,6 +1,6 @@
 /*
  This file is part of the BlueJ program.
- Copyright (C) 2025,2026  Michael Kolling and John Rosenberg
+ Copyright (C) 2026  Michael Kolling and John Rosenberg
 
  This program is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public License
@@ -33,8 +33,6 @@ import threadchecker.Tag;
  * Kotlin token type mapping. Converts PSI KtTokens to BlueJ Token.TokenType
  * for syntax highlighting, and to integer constants compatible with
  * JavaTokenTypes for LocatableToken.
- *
- * @author BlueJ Team
  */
 @OnThread(Tag.Any)
 public final class KotlinToken

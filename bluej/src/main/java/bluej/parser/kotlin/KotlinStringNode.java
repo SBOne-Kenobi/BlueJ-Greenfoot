@@ -1,6 +1,6 @@
 /*
  This file is part of the BlueJ program.
- Copyright (C) 2025,2026  Michael Kolling and John Rosenberg
+ Copyright (C) 2026  Michael Kolling and John Rosenberg
 
  This program is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public License
@@ -35,8 +35,6 @@ import threadchecker.Tag;
  * ({@code """..."""}). Tokenizes gap content as string literals and
  * delegates template expression bodies to child nodes for normal
  * Kotlin tokenization.
- *
- * @author BlueJ Team
  */
 @OnThread(Tag.FXPlatform)
 public class KotlinStringNode extends KotlinParentNode

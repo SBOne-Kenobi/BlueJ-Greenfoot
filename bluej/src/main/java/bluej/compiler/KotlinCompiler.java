@@ -1,6 +1,6 @@
 /*
  This file is part of the BlueJ program.
- Copyright (C) 2025,2026  Michael Kolling and John Rosenberg
+ Copyright (C) 2026  Michael Kolling and John Rosenberg
 
  This program is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public License
@@ -41,8 +41,6 @@ import org.jetbrains.kotlin.config.Services;
 /**
  * A compiler implementation wrapping kotlin-compiler-embeddable for
  * Kotlin compilation, analogous to CompilerAPICompiler for Java.
- *
- * @author BlueJ Team
  */
 public class KotlinCompiler extends Compiler
 {
